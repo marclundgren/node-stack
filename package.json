@@ -1,0 +1,23 @@
+{
+  "name": "node-stack",
+  "version": "0.0.1",
+  "description": "a Node stack class implementation that does not use an array.",
+  "author": "Marc Lundgren",
+
+  "scripts": {
+    "test": "node test.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marclundgren/node-stack"
+  },
+  "bugs": {
+    "url": "https://github.com/marclundgren/node-stack/issues"
+  },
+  "keywords": [
+    "node",
+    "stack"
+  ],
+  "license": "MIT"
+}
