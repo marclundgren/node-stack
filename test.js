@@ -1,5 +1,5 @@
 // imports
-var Stack = require('./stack');
+var Stack = require('./lib/stack');
 
 var myStack = new Stack();
 
@@ -11,4 +11,13 @@ var kyle    = myStack.pop(); // 3
 var stan    = myStack.pop(); // 2
 var butters = myStack.pop(); // 1
 
-console.log({ kyle, stan, butters });
+if (
+  kyle.name    === 'Kyle' &&
+  stan.name    === 'Stan' &&
+  butters.name === 'Butters'
+) {
+  console.log('test pass.');
+}
+else {
+  console.log('test fail.');
+}

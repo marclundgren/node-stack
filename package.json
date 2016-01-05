@@ -7,7 +7,7 @@
   "scripts": {
     "test": "node test.js"
   },
-  "main": "index.js",
+  "main": "lib/stack.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/marclundgren/node-stack"
